@@ -21,7 +21,7 @@ npm run build
 Start the application using Node.js:
 node dist/main.js
 
-**Development Workflow**
+## Development Workflow
 Compiling TypeScript
 To compile TypeScript files during development, use:
 npm run build
@@ -29,6 +29,6 @@ npm run build
 Alternatively, you can use the watch mode to recompile on changes:
 npm run watch
 
-**Notes**
+## Notes
 The dist/ folder is included in the repository to ensure the application runs without requiring users to compile the code.
 If you encounter any issues, ensure the dist/ folder is up-to-date by running npm run build.
