@@ -1,0 +1,70 @@
+{
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 63043,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2025-01-17T12:59:31.561Z",
+  "crawlerFinishedAt": "2025-01-17T13:01:44.801Z",
+  "statsPersistedAt": "2025-01-17T13:01:44.801Z",
+  "crawlerRuntimeMillis": 134106,
+  "crawlerLastStartTimestamp": 1737118770695,
+  "requestRetryHistogram": [
+    null,
+    null,
+    null,
+    1
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": 63043,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 63043,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {
+    "200": 3
+  },
+  "errors": {
+    "C:\\Users\\nadia\\OneDrive\\Desktop\\Programacion\\data-extraction-master\\node_modules\\@apify\\timeout\\cjs\\index.cjs:64:68": {
+      "missing error code": {
+        "Error": {
+          "requestHandler timed out after 60 seconds.": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "C:\\Users\\nadia\\OneDrive\\Desktop\\Programacion\\data-extraction-master\\node_modules\\@apify\\timeout\\cjs\\index.cjs:64:68": {
+      "missing error code": {
+        "Error": {
+          "requestHandler timed out after 60 seconds.": {
+            "count": 1
+          }
+        }
+      }
+    },
+    "C:\\Users\\nadia\\OneDrive\\Desktop\\Programacion\\data-extraction-master\\dist\\login.js:26:24": {
+      "missing error code": {
+        "Error": {
+          "page.waitForSelector: Target page, context or browser has been closed": {
+            "count": 1
+          }
+        }
+      }
+    },
+    "C:\\Users\\nadia\\OneDrive\\Desktop\\Programacion\\data-extraction-master\\node_modules\\@crawlee\\browser-pool\\browser-pool.js:399:19": {
+      "missing error code": {
+        "Error": {
+          "browserController.newPage() failed: bZOh_88bKfS1tLazG6pAg": {
+            "count": 1
+          }
+        }
+      }
+    }
+  }
+}
